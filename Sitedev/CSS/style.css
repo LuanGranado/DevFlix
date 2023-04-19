@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+   background-color: black;
+   color: white;
+   font-family: 'Inter';
+   font-weight: 400;
+}
+header {
+   text-align: center;
+   margin-top: 45px;
+   margin-bottom: -15px;
+}
+.sec1 {
+   height: 843.07px;
+}
+.primeiraSec {
+   background-image: url('../imagens/fundoPag1.png');
+   background-size: 700px  600px;
+   background-position: right;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 735.7px;
+   display: absolute;
+   position: static;
+}
+.content1 {
+   font-size: 28px;
+   font-weight: 700;
+   text-align: center;
+   padding: 32px;
+   margin-bottom: -2px;
+}
+.secLeft {
+   margin-left: 96px;
+   width: 660px;
+   height: 432px;
+   position: relative;
+   padding-top: 68px;
+}
+.imgSec1 {
+   width: 660px;
+   height: 137px;
+}
+.botõesSec1 {
+   width: 512px;
+   height: 56px;
+   border-radius: 8px;
+   font-size: 1rem;
+   color: white;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   font-weight: 400;
+}
+.inp1 {
+   background-color: #009748;
+   margin-top: 46px;
+   margin-bottom: 16px;
+}
+
+.inp2 {
+   border: 1px solid white;
+   margin-bottom: 10px;
+}
+
+.textSec1 {
+   font-size: 12px;
+   color: #C0C0C0;
+   text-align: center;
+}
+.sec2 {
+   background-color: #222634;
+   width: 100%;
+   height: 900px;
+   display: flex;
+   justify-content: center;
+}
+
+.segundaSec {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contentSec2 {
+   width: 627.2px;
+   height: 114px;
+   margin-left: 37.27px;
+}
+
+.imgSec2 {
+   width: 660px;
+   height: 397.62px;
+}
+
+.tituloSec2 {
+   font-size: 48px;
+   font-weight: 700;
+}
+
+.textoSec2 {
+   margin-top: 8px;
+   font-size: 16px;
+   color: rgba(249, 249, 249, 0.8);
+   font-weight: 400;
+}
+.sec3 {
+   width: 100%;
+   height: 900px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.terceiraSec {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contentSec3 {
+   width: 573px;
+   margin-right: 60px;
+}
+
+.textoSec3 {
+   color: rgba(249, 249, 249, 0.8);
+   text-align: center;
+}
+.sec4 {
+   background-color: #222634;
+   width: 100%;
+   height: 900px;
+   display: flex;
+   justify-content: center;
+}
+
+.quartaSec {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contentSec4 {
+   width: 627.2px;
+   height: 114px;
+   margin-left: 37.27px;
+}
+
+.imgSec4 {
+   width: 611.2px;
+   height: 343.6px;
+}
+
+.tituloSec4 {
+   font-size: 48px;
+   font-weight: 700;
+}
+
+.textoSec4 {
+   margin-top: 8px;
+   font-size: 16px;
+   color: rgba(249, 249, 249, 0.8);
+   font-weight: 400;
+}
+.sec5 {
+   width: 100%;
+   height: 900px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-weight: 700;
+}
+
+.quintaSec {
+   display: grid;
+   grid-template-rows: 100px 300px;
+}
+
+.contentSec5 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 90px;
+   font-size: 32px;
+}
+
+.titleSec5 {
+   font-size: 48px;
+}
+.sec6 {
+   width: 100%;
+   height: 592px;
+   background-color: #222634;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.titleSec6 {
+   font-size: 32px;
+   font-weight: 700;
+   text-align: center;
+   margin-bottom: 33px;
+}
+
+form {
+   width: 505px;
+   height: 317px;
+}
+
+.inp6 {
+   background-color: #009748;
+   margin-top: 24px;
+   width: 512px;
+   height: 56px;
+}
+
+.textInpSec6 {
+   width: 505px;
+   height: 56px;
+   border-radius: 16px;
+   text-align: center;
+   font-size: 18px;
+   background-color: #2E3447;
+   border: 1px solid white;
+   margin-bottom: 19px;
+   color: white;
+}
+
+.textarea {
+   width: 505px;
+   height: 165px;
+   border-radius: 16px;
+   text-align: center;
+   font-size: 18px;
+   background-color: #2E3447;
+   border: 1px solid white;
+   padding-top: 17px;
+   color: white;
+}
+
+.textarea::placeholder {
+   font-family: 'Inter';
+}
+footer {
+   width: 100%;
+   height: 260px;
+   background-color: #222634;
+   padding-top: 114px;
+   text-align: center;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+   padding: 0px 10px;
+}
+
+.logoFooter {
+   margin-bottom: 48.5px;
+}
+
+.linksFooter {
+   margin-bottom: 24px;
+}
+
+.texto1Footer {
+   font-size: 14px;
+   color: #C0C0C0;
+   margin-bottom: 22px;
+}
+
+.texto2Footer {
+   font-size: 14px;
+   color: #C0C0C0;
+   margin-bottom: 22px;
+}
